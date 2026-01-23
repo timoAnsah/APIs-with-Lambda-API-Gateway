@@ -16,7 +16,8 @@ It scales automatically, from a few requests per day to thousans per second. The
 
 <img width="1919" height="247" alt="lambda step 1" src="https://github.com/user-attachments/assets/45950f00-822c-4672-b244-46e122d8b09d" />
 
-<img width="1919" height="247" alt="lambda step 1" src="https://github.com/user-attachments/assets/d19665cf-6bcd-4afb-94b7-6bc03a89953b" />
+<img width="1233" height="821" alt="the function" src="https://github.com/user-attachments/assets/22cac507-69d1-4b95-b6ef-882fa2ec8f53" />
+
 
 Create Lambda function & Select Author from scratch
 functions name `Retrieve Data`
