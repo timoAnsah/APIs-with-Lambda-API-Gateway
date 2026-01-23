@@ -21,6 +21,11 @@ It scales automatically, from a few requests per day to thousans per second. The
 <img width="1233" height="821" alt="the function" src="https://github.com/user-attachments/assets/22cac507-69d1-4b95-b6ef-882fa2ec8f53" />
 
 
-Create Lambda function & Select Author from scratch
-functions name `Retrieve Data`
+- Create Lambda function & Select Author from scratch
+- functions name `Retrieve Data`
+- Run time is the enviroment used to run the code. Python code needs a Python runtime environment to execute our Lambda Function.
+- execution role defines permissions of the function. sometimes Lambda needs permissions to access other service.
+We create basic lamdbda permissions to write logs to CloudWatch to troubleshoot errors. 
+- For Architecture I selected x86_64, it is the physical processor/hardware somewhere in the world of AWS which runs the code.
 
+- <img width="1205" height="962" alt="lambda" src="https://github.com/user-attachments/assets/0c60e6a9-a265-4aa4-a5db-5df65663565b" />
