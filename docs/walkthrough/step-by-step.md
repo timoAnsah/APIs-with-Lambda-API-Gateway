@@ -15,5 +15,9 @@ AWS Lambda lets me run a code without needing to manage any computers/servers. L
 It scales automatically, from a few requests per day to thousans per second. The only requirement is to supply a code in a language supported by Lambda, in this case I'lll be using python.
 
 <img width="1919" height="247" alt="lambda step 1" src="https://github.com/user-attachments/assets/45950f00-822c-4672-b244-46e122d8b09d" />
+
+<img width="1919" height="247" alt="lambda step 1" src="https://github.com/user-attachments/assets/d19665cf-6bcd-4afb-94b7-6bc03a89953b" />
+
 Create Lambda function & Select Author from scratch
 functions name `Retrieve Data`
+
