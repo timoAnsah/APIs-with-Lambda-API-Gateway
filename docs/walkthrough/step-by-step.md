@@ -56,10 +56,13 @@ Its like a messenger that carries requests & responses between systems.
 Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser & the Lambda Function that will process these request.API also returns the Lambda Functions response.
 
 
-Relationship between APIs & Lambda
+## Relationship between APIs & Lambda
 - Front door to Lambda Function - Receives request & forwards them to Lambda for processing
 - Lambda processes the request & sends the response through API gateway back to user.
 
-Worth noting that exposing Lambda Functions directly to User request is not best practise because Lambda Functions do not have built in security or API management features. API Gateway brings in authentication & authorization features & advanced API management capabilities like request routing that makes your app more efficient.
+Worth noting that exposing Lambda Functions directly to User request is not best practice. 
+Lambda Functions do not have built in security or API management features. 
+API Gateway brings in authentication, authorization features & advanced API management capabilities like request routing that makes your app more efficient.
 
+![alt text](API.png)
 
