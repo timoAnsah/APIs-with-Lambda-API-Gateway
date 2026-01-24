@@ -28,4 +28,16 @@ It scales automatically, from a few requests per day to thousans per second. The
 We create basic lamdbda permissions to write logs to CloudWatch to troubleshoot errors. 
 - For Architecture I selected x86_64, it is the physical processor/hardware somewhere in the world of AWS which runs the code.
 
-- <img width="1205" height="962" alt="lambda" src="https://github.com/user-attachments/assets/0c60e6a9-a265-4aa4-a5db-5df65663565b" />
+<img width="1205" height="444" alt="lambda" src="https://github.com/user-attachments/assets/f77d607c-5387-41f6-993c-174dbbb3f550" />
+
+Successfully created the Lambda Function.
+
+
+The next step is to create a Function & give it a purpose. I added a code into the function editor.
+
+<img width="1272" height="1010" alt="dynamo code" src="https://github.com/user-attachments/assets/691edf26-cbb8-451d-a569-bda202a90a69" />
+
+This code sets up a Lambda Function that retrieves data from a DynamoDB table.
+It looks for specific data based on `UserID` & returns the data.
+If there is an error, `UserID` does not exist in the database & an error message is returned.
+
