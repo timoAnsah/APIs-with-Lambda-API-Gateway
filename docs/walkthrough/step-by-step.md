@@ -66,4 +66,33 @@ API Gateway brings in authentication, authorization features & advanced API mana
 
 <img width="2562" height="1482" alt="API" src="https://github.com/user-attachments/assets/aa657dd6-b0f6-4923-9524-8bf988dada3f" />
 
+API Gateway supports different typres of API, examples are REST, WebSocket & HTTP.
+They are suited for different use cases.
+- HTTP - Routing request
+- WebSocket - Real Time capabilities
+- REST - Maintaining a standard web API
+
+For this project I am using a REST API. 
+Representational State Transfer is a type of API that uses HTTP methods to interact with resources.
+it's simple & can be used with any programming language & connect User with the Lambda Function.
+
+<img width="2737" height="502" alt="REST" src="https://github.com/user-attachments/assets/573fdb32-1c61-49d9-8661-004dcbcf7d69" />
+
+<img width="2750" height="1417" alt="CreateREST" src="https://github.com/user-attachments/assets/d256e51a-7b13-4c9b-b932-6c6adba4dce9" />
+
+Wehen configuring the API
+- Selected Build
+- Under API details, select New API
+- API name is `UserRequestAPI`
+- API endpoint type I selected `Regional`
+
+Endpoint types define the scope of the API's availability. 
+Regional endpoints are accessible within a specific AWS region, which is great for localized applications because it has low latency for clients in that region.
+
+Other endpoint types are Regional, there are Edge-Optimized (for global applications) and Private (for internal networks) endpoints.
+
+Each serves different needs depending on how and where you want your API accessed.
+
+
+
 
