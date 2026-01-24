@@ -50,7 +50,16 @@ I Gateway comes in.
 ## Step 2 - Set Up an API Gateway
 
 API stands for Application Programming Interface, it's a way different software systems communicate with each other.
-Its like a messenger that carries requests & responses between systems. Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser browser & the Lambda Function that will process these request. The API also returns the Lambda Functions response.
+API Gateway makes it easy to create, publish, maintain & monitor & secure API at any scale.
+It manages incomijng traffic, directs them to the correct service & makes sure only authorised request gets through.
+Its like a messenger that carries requests & responses between systems. 
+Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser browser & the Lambda Function that will process these request. The API also returns the Lambda Functions response.
 
+
+Relationship between APIs & Lambda
+- Front door to Lambda Function - Receives request & forwards them to Lambda for processing
+- Lambda processes the request & sends the response through API gateway back to user.
+
+Worth noting that exposing Lmabda Functions directly to User request is not best practise because Lambda Functions do not have built in security or API management features. API Gateway bring in authentication & authorization features & advanced API management capabilities like request routing that makes your app more efficient.
 
 
