@@ -64,5 +64,6 @@ Worth noting that exposing Lambda Functions directly to User request is not best
 Lambda Functions do not have built in security or API management features. 
 API Gateway brings in authentication, authorization features & advanced API management capabilities like request routing that makes your app more efficient.
 
-![alt text](API.png)
+<img width="2562" height="1482" alt="API" src="https://github.com/user-attachments/assets/aa657dd6-b0f6-4923-9524-8bf988dada3f" />
+
 
