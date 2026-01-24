@@ -80,7 +80,7 @@ it's simple & can be used with any programming language & connect User with the 
 
 <img width="2750" height="1417" alt="CreateREST" src="https://github.com/user-attachments/assets/d256e51a-7b13-4c9b-b932-6c6adba4dce9" />
 
-Wehen configuring the API
+When configuring the API
 - Selected Build
 - Under API details, select New API
 - API name is `UserRequestAPI`
