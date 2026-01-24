@@ -50,4 +50,7 @@ I Gateway comes in.
 ## Step 2 - Set Up an API Gateway
 
 API stands for Application Programming Interface, it's a way different software systems communicate with each other.
-Its like a messenger that carries requests & responses between systems. Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser browser & the Lambda Function that will process these request. The API also returns the functions response.
+Its like a messenger that carries requests & responses between systems. Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser browser & the Lambda Function that will process these request. The API also returns the Lambda Functions response.
+
+
+
