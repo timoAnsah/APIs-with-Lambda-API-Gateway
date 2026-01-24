@@ -32,12 +32,22 @@ We create basic lamdbda permissions to write logs to CloudWatch to troubleshoot 
 
 Successfully created the Lambda Function.
 
-
+# Function & Code
 The next step is to create a Function & give it a purpose. I added a code into the function editor.
 
 <img width="1272" height="1010" alt="dynamo code" src="https://github.com/user-attachments/assets/691edf26-cbb8-451d-a569-bda202a90a69" />
+
+
 
 This code sets up a Lambda Function that retrieves data from a DynamoDB table.
 It looks for specific data based on `UserID` & returns the data.
 If there is an error, `UserID` does not exist in the database & an error message is returned.
 
+Next I deployed the code which makes the function ready to use.
+With the Lambda Function ready I need a way to access it & this is where AP
+I Gateway comes in.
+
+## Step 2 - Set Up an API Gateway
+
+API stands for Application Programming Interface, it's a way different software systems communicate with each other.
+Its like a messenger that carries requests & responses between systems. Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser browser & the Lambda Function that will process these request. The API also returns the functions response.
