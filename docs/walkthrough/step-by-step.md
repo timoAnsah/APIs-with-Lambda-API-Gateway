@@ -93,6 +93,8 @@ Other endpoint types are Regional, there are Edge-Optimized (for global applicat
 
 Each serves different needs depending on how and where you want your API accessed.
 
+<img width="2710" height="885" alt="RESTAPI" src="https://github.com/user-attachments/assets/47fc1039-6810-446f-926f-df0612efde80" />
+
 
 
 
