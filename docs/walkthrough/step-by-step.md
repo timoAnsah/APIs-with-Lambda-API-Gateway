@@ -119,3 +119,9 @@ The resource name is used in the API Gateway to refer to that resource.
 
 <img width="1311" height="258" alt="theresource" src="https://github.com/user-attachments/assets/30e981db-cfb8-4aac-bcaa-2ab1e6e948fb" />
 
+since the resource can be used for many different kinds of actions, we'll need to define what each of those actions are.
+
+## API Method
+
+Methods are things I can do with the resource.
+For example, i can use a `GET` method to retrieve data, a `POST` method to create data, a `PUT` method to update data & a `DELETE` method to delete data.
