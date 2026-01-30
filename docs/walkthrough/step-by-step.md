@@ -103,8 +103,15 @@ This is the central hub for managing & monitoring APIs methods, deployments & se
 
 The next step was to create an API Resource to help me organise what I want it to do.
 
-Resources are like different sections or pages of your API. They help organise how APIs handles different requests.
+Resources are individual endpoints within an API that handles different parts of it's functionality & organise how APIs handles different requests.
 For example I might have a resource for users, products & orders. Each resource has its own set of actions that can be performed on it,
 like creating, reading, updatinng or deleting data.
 
+
+- Under resource, select create resource
+
+<img width="1311" height="363" alt="APIresource" src="https://github.com/user-attachments/assets/dcc9742c-2225-44aa-8b09-60688beca78d" />
+
+Resource path & Resource name is the URL path used to access that resource e.g. `/Messages` for retrieving messages & `/Users` for retrieving User profiles.
+The resource name is used in the API Gateway to refer to that resource.
 
