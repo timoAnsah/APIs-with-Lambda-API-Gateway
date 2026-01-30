@@ -136,12 +136,14 @@ For example:
 - Configure the method
 
 
-The next I will create a method in `/Users` resource. This si because I can perform different actions in the same resource.
+The next I will create a method in `/Users` resource. This is because I can perform different actions in the same resource.
 Methods define which actions are possible & how they can be carried out
 
 <img width="1311" height="335" alt="createMETHOD" src="https://github.com/user-attachments/assets/714f9b6a-f3e9-4553-94e9-e59dd3553dd7" />
 
-In this next step the `Method` type is `GET` because i am here to retrieve data.
+In this next step the `Method` type is `GET` to retrieve data.
+The `GET` method will also connect the API Gateway with my Lambda Function.
+When an end user makes a request with my API e.g. "api.com/users", API knows to pass the event to my Lambda Function when i'm retrieving data.
 the integration type is a Lambda fucntion. 
 
 An integration type is a backend service tat can fulfill an API request. It determines how API Gateway passes the request data to the backend & processes the response.
@@ -154,7 +156,8 @@ By selecting the Lambda Function as the integrtion type, API Gateway can directl
 
 - Switch on Lambda Proxy Integration
 - Select `RetrieveUserData` function
-- Select creat Method
+- Select create Method
+- Ensure the default region where the Lambda Function is created 
 
 Lambda Proxy Integration is a setting that simplifies the connection between API Gateway & Lambda Funtion
 When users interact with a website, a request for data from the database goes straigh to the API Gateway. 
@@ -165,3 +168,6 @@ Lambda returns a response, API Gateway needs to map the response back into a for
 With Lambda proxy integration, API Gateway doesn't need to reformat the user's request. 
 Instead, it passes the entire request - headers, query parameters, path parameters, and body directly to Lambda. 
 The Lambda function itself will have to be capable of processing the request internally
+
+<img width="1301" height="1010" alt="GETmethoddone" src="https://github.com/user-attachments/assets/4c6dba36-9bc1-43a6-a26f-c2364870f943" />
+
