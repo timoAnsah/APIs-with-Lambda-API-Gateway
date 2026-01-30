@@ -54,7 +54,8 @@ API Gateway makes it easy to create, publish, maintain, monitor & secure API at 
 It manages incoming traffic, directs them to the correct service & makes sure only authorised request gets through.
 Its like a messenger that carries requests & responses between systems. 
 Specifically for this project, we're creating an API that will be the runner between the Users Request in the browser & the Lambda Function that will process these request.API also returns the Lambda Functions response.
-
+Its great as a security checkpoint it makes sure only authorised request come through, it can receive events coming in & determine if they are authorised to do it and send the request to a Lambda function
+which then returns the request with an authorised or unathorised access.
 
 ## Relationship between APIs & Lambda
 - Front door to Lambda Function - Receives request & forwards them to Lambda for processing
@@ -65,6 +66,7 @@ Lambda Functions do not have built in security or API management features.
 API Gateway brings in authentication, authorization features & advanced API management capabilities like request routing that makes your app more efficient.
 
 <img width="2562" height="1482" alt="API" src="https://github.com/user-attachments/assets/aa657dd6-b0f6-4923-9524-8bf988dada3f" />
+
 
 API Gateway supports different typres of API, examples are REST, WebSocket & HTTP.
 They are suited for different use cases.
