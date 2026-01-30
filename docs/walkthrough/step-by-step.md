@@ -125,3 +125,11 @@ since the resource can be used for many different kinds of actions, we'll need t
 
 Methods are things I can do with the resource.
 For example, i can use a `GET` method to retrieve data, a `POST` method to create data, a `PUT` method to update data & a `DELETE` method to delete data.
+
+
+- Create a GET Method for the `Users` resource
+- Connect the `GET` method to the Lambda Function 
+
+
+The next I will create a method in `/Users` resource. This si because I can perform different actions in the same resource.
+Methods define which actions are possible & how they can be carried out
