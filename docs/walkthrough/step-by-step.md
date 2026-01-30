@@ -40,7 +40,7 @@ The next step is to create a Function & give it a purpose. I added a code into t
 
 
 This code sets up a Lambda Function that retrieves data from a DynamoDB table.
-It looks for specific data based on `UserID` & returns the data.
+It grabs `UserID` from a triggered event i.e. submitting a UserID through a field on a website & queries for a piece of data in Dynamo DB that matches the `USERID`.
 If there is an error, `UserID` does not exist in the database & an error message is returned.
 
 Next I deployed the code which makes the function ready to use.
