@@ -115,3 +115,7 @@ like creating, reading, updatinng or deleting data.
 Resource path & Resource name is the URL path used to access that resource e.g. `/Messages` for retrieving messages & `/Users` for retrieving User profiles.
 The resource name is used in the API Gateway to refer to that resource.
 
+<img width="1306" height="348" alt="APIresource" src="https://github.com/user-attachments/assets/fd98025b-161b-41e9-843a-d225a5279b5a" />
+
+<img width="1311" height="258" alt="theresource" src="https://github.com/user-attachments/assets/30e981db-cfb8-4aac-bcaa-2ab1e6e948fb" />
+
