@@ -97,6 +97,14 @@ Each serves different needs depending on how and where you want your API accesse
 
 <img width="2710" height="885" alt="RESTAPI" src="https://github.com/user-attachments/assets/47fc1039-6810-446f-926f-df0612efde80" />
 
+This is the central hub for managing & monitoring APIs methods, deployments & settings
 
+## Set Up API Resource
+
+The next step was to create an API Resource to help me organise what I want it to do.
+
+Resources are like different sections or pages of your API. They help organise how APIs handles different requests.
+For example I might have a resource for users, products & orders. Each resource has its own set of actions that can be performed on it,
+like creating, reading, updatinng or deleting data.
 
 
