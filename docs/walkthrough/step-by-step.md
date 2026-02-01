@@ -160,7 +160,7 @@ By selecting the Lambda Function as the integrtion type, API Gateway can directl
 - Ensure the default region where the Lambda Function is created 
 
 Lambda Proxy Integration is a setting that simplifies the connection between API Gateway & Lambda Funtion
-When users interact with a website, a request for data from the database goes straigh to the API Gateway. 
+When users interact with a website, a request for data from the database goes straight to the API Gateway. 
 This request contains multiple parts like headers, query & path parameters & more
 The API Gateway breaks down the request & formats it in a way the Lambda Funtion can process. 
 Lambda returns a response, API Gateway needs to map the response back into a format expected by the User.
