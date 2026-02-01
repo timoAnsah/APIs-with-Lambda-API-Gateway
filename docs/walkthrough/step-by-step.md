@@ -200,7 +200,7 @@ Production is the live environment where the API is fuly working & there is live
 
 
 To visit the API created by copying the invoke URL. The invoke URL is where the API can be used. 
+
 Production stage invoke URL into live application code. Enables users to Live version of the API.
-<img width="438" height="120" alt="invokeURL" src="https://github.com/user-attachments/assets/07ff411a-4193-464e-af1e-d1cf6bd3233d" />
 
 <img width="438" height="120" alt="invokeURL" src="https://github.com/user-attachments/assets/5096ed60-bae7-4f34-9449-bb8f71faceb2" />
