@@ -99,7 +99,7 @@ Each serves different needs depending on how and where you want your API accesse
 
 This is the central hub for managing & monitoring APIs methods, deployments & settings
 
-## Set Up API Resource
+## Step 3 -  Set Up API Resource
 
 The next step was to create an API Resource to help me organise what I want it to do.
 
@@ -121,7 +121,7 @@ The resource name is used in the API Gateway to refer to that resource.
 
 since the resource can be used for many different kinds of actions, we'll need to define what each of those actions are.
 
-## API Method
+## Step 4 -  API Method
 
 Methods are things I can do with the resource.
 For example:
@@ -177,3 +177,19 @@ When the Function runs, Lambda retrieves the user data in the Dynamo DB table.
 
 <img width="1222" height="285" alt="GETMethodresource" src="https://github.com/user-attachments/assets/4657b579-1d00-4eae-a812-4629b151e0d6" />
 
+## Step 5 - Deploy API
+
+- Select Deploy API
+- For Stage - selected New stage
+- Stage name is Production
+
+<img width="452" height="389" alt="DeployAPI" src="https://github.com/user-attachments/assets/70c86f8f-8ca0-4cb1-8291-987218549466" />
+
+
+Deploying the API makes it accessible through a public Endpoint so I can use it.
+Wehn deploying the API Gateway, a stage is a snapshot of the API at any specific point in time.
+API enables different different versions of API to different stages. 
+This way I am in control of who accesses what version of the API & when.
+Usually, create and refine new features in the API’s development environment, validate them in the testing phase & finally release them to the production environment for real‑world use.
+
+Production is the live environment where the API is fuly working & there is live traffic & communication using the API.
