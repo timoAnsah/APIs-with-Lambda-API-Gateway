@@ -1,7 +1,7 @@
 # Step-by-step Implementation Guide
 
 In this project I will demonstrate how to set up an API using AWS Lambda & Amazon API Gateway 
-I am doing this to learn how APIs work & also set up the logic tier for this three tier architecture.
+I am learning how APIs work, set up the logic tier for this three tier architecture.
 
 ## Step 1 - The Lambda Function 
 - Create a Lambda Function
