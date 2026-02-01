@@ -171,3 +171,4 @@ The Lambda function itself will have to be capable of processing the request int
 
 <img width="1301" height="1010" alt="GETmethoddone" src="https://github.com/user-attachments/assets/4c6dba36-9bc1-43a6-a26f-c2364870f943" />
 
+The next step 
