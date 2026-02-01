@@ -9,7 +9,7 @@ I am doing this to learn how APIs work & also set up the logic tier for this thr
 - add code to retrieve user data
 
 Lambda function will be the brain of my application, it's a service that lets me run a code without having to manage servers. its a Function as a Service. In this use case it will fetch data from a database & return it to users. A common use case in Web Applications.
-You can write Lmabda Functions to do things like process data, respond to events & run automated tasks.
+You can write Lambda Functions to do things like process data, respond to events & run automated tasks.
 for example when you search for a product in an online shop, the website backend needs to query the product database,
 find the relevant product & send the details back to the browser as quickly as possible.
 
@@ -23,7 +23,7 @@ It scales automatically, from a few requests per day to thousans per second. The
 
 - Create Lambda function & Select Author from scratch
 - functions name `Retrieve Data`
-- Run time is the enviroment used to run the code. Python code needs a Python runtime environment to execute our Lambda Function.
+- Run time is the enviroment used to run the code. Python code needs a Python runtime environment with all it's dependencies to execute our Lambda Function.
 - execution role defines permissions of the function. sometimes Lambda needs permissions to access other service.
 We create basic lamdbda permissions to write logs to CloudWatch to troubleshoot errors. 
 - For Architecture I selected x86_64, it is the physical processor/hardware somewhere in the world of AWS which runs the code.
