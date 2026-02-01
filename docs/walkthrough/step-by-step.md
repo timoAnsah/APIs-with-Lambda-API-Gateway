@@ -171,4 +171,9 @@ The Lambda function itself will have to be capable of processing the request int
 
 <img width="1301" height="1010" alt="GETmethoddone" src="https://github.com/user-attachments/assets/4c6dba36-9bc1-43a6-a26f-c2364870f943" />
 
-The next step 
+The Lambda Function selected will be the function that gets triggered when the API method is called.
+In this scenario, when `GET` method is for `/Users` resource is called, API Gateway passes the request to the Lambda Function.
+When the Function runs, Lambda retrieves the user data in the Dynamo DB table.
+
+<img width="1222" height="285" alt="GETMethodresource" src="https://github.com/user-attachments/assets/4657b579-1d00-4eae-a812-4629b151e0d6" />
+
