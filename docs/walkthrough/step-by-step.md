@@ -185,11 +185,15 @@ When the Function runs, Lambda retrieves the user data in the Dynamo DB table.
 
 <img width="452" height="389" alt="DeployAPI" src="https://github.com/user-attachments/assets/70c86f8f-8ca0-4cb1-8291-987218549466" />
 
+The Production stage shows you settings, metrics, and logs for the API Gateway when its in production. 
 
 Deploying the API makes it accessible through a public Endpoint so I can use it.
-Wehn deploying the API Gateway, a stage is a snapshot of the API at any specific point in time.
+When deploying the API Gateway, a stage is a snapshot of the API at any specific point in time.
 API enables different different versions of API to different stages. 
 This way I am in control of who accesses what version of the API & when.
 Usually, create and refine new features in the API’s development environment, validate them in the testing phase & finally release them to the production environment for real‑world use.
+
+<img width="1230" height="705" alt="stagedeployment" src="https://github.com/user-attachments/assets/4daae16d-38f7-44cc-9046-264e5c56a41d" />
+
 
 Production is the live environment where the API is fuly working & there is live traffic & communication using the API.
